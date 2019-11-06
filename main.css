@@ -79,9 +79,11 @@ button {
 }
 .button1 a {
   color: white;
+  text-decoration: none;
 }
 .button2 a {
   color: white;
+  text-decoration: none;
 }
 footer {
   background-color: #3D0707;
@@ -89,7 +91,6 @@ footer {
   padding: 5%;
   text-align: center;
 }
-
 @media (min-width: 780px){
   .welcome {
     flex-direction: row;
@@ -108,5 +109,11 @@ footer {
   .numbers-flex {
     flex-direction: row;
     justify-content: space-around;
+  }
+  .button1 {
+    min-width: 200px;
+  }
+  .button2 {
+    min-width: 200px;
   }
 }
