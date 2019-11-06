@@ -85,11 +85,27 @@ button {
   color: white;
   text-decoration: none;
 }
+.quotes {
+  text-align: center;
+}
 footer {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
   background-color: #3D0707;
   color: white;
   padding: 5%;
   text-align: center;
+}
+footer p {
+  padding: 2%;
+}
+.social {
+  display: none;
+}
+.social p a {
+  color: white;
+  text-decoration: none;
 }
 @media (min-width: 780px){
   .welcome {
@@ -115,5 +131,19 @@ footer {
   }
   .button2 {
     min-width: 200px;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .foot-text {
+    min-width: 300px;
+  }
+  .social {
+    display: flex;
+  }
+  .social p {
+    padding-right: 10%;
   }
 }
