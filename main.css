@@ -9,6 +9,8 @@ body {
 }
 .container {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 h2 {
   color: #21417B;
@@ -19,7 +21,6 @@ h2 {
 header img {
   max-width: 100%;
   margin-top: 5%;
-  margin-bottom: 5%;
 }
 main {
   justify-content: center;
@@ -36,10 +37,12 @@ button {
   background-color: red;
 }
 .numbers {
+  text-align: center;
+}
+.numbers-flex {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
 }
 .numbers img {
   max-width: 100px;
@@ -87,6 +90,23 @@ footer {
   text-align: center;
 }
 
-@media (max-width:780){
-  
+@media (min-width: 780px){
+  .welcome {
+    flex-direction: row;
+  }
+  .welcome-words {
+    max-width: 70%;
+  }
+  .buttons {
+    justify-content: center;
+    align-content: center;
+    margin-left: 5%;
+  }
+  .numbers {
+    text-align: left;
+  }
+  .numbers-flex {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
