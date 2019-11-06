@@ -146,4 +146,8 @@ footer p {
   .social p {
     padding-right: 10%;
   }
+  .numbers img {
+    max-width: 150px;
+    padding: 2%;
+  }
 }
