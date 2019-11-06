@@ -13,6 +13,8 @@ body {
 h2 {
   color: #21417B;
   margin-bottom: 3%;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 header img {
   max-width: 100%;
@@ -72,9 +74,19 @@ button {
   margin-top: 4%;
   margin-bottom: 4%;
 }
+.button1 a {
+  color: white;
+}
+.button2 a {
+  color: white;
+}
 footer {
   background-color: #3D0707;
   color: white;
   padding: 5%;
   text-align: center;
+}
+
+@media (max-width:780){
+  
 }
