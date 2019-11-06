@@ -87,6 +87,8 @@ button {
 }
 .quotes {
   text-align: center;
+  color: #21417B;
+  text-transform: uppercase;
 }
 footer {
   display: flex;
