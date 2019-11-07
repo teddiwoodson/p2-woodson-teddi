@@ -185,6 +185,7 @@ footer p {
   .numbers-flex {
     flex-direction: row;
     justify-content: space-around;
+    align-items: baseline;
   }
   .button1 {
     min-width: 200px;
