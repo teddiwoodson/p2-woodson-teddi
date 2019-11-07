@@ -17,6 +17,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  text-transform: uppercase;
 }
 nav ul {
   display: none;
@@ -94,10 +95,18 @@ button {
 .button1 a {
   color: white;
   text-decoration: none;
+  text-transform: uppercase;
+}
+.button1 a:hover {
+  text-decoration: underline;
 }
 .button2 a {
   color: white;
   text-decoration: none;
+  text-transform: uppercase;
+}
+.button2 a:hover {
+  text-decoration: underline;
 }
 .quotes {
   text-align: center;
@@ -112,6 +121,7 @@ footer {
   color: white;
   padding: 5%;
   text-align: center;
+  text-transform: uppercase;
 }
 footer p {
   padding: 2%;
@@ -122,6 +132,9 @@ footer p {
 .social p a {
   color: white;
   text-decoration: none;
+}
+.social p a:hover {
+  text-decoration: underline;
 }
 @media (min-width: 780px){
   nav {
