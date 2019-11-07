@@ -26,16 +26,19 @@ button {
   display: block;
   width: 100px;
   height: 100px;
-  margin: auto;
   margin-top: 60px;
   background-color: white;
   font-size: 50px;
 }
 .menu {
-  display: none;
+  height: 0;
+  overflow: hidden;
+  transition: height 1s;
 }
 .show-mobile-menu {
   display: block;
+  height: 424px;
+  transition: height 1s;
 }
 .menu ul{
   list-style-type: none;
