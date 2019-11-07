@@ -167,6 +167,12 @@ footer p {
 .social p a:hover {
   text-decoration: underline;
 }
+.divider img {
+  max-width: 100%;
+}
+.faq {
+  text-align: center;
+}
 @media (min-width: 780px){
   .logo {
     margin-top: 5%;
