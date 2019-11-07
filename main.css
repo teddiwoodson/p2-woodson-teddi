@@ -22,6 +22,34 @@ nav {
 nav ul {
   display: none;
 }
+button {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 60px;
+  background-color: white;
+  font-size: 50px;
+}
+.menu ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+.menu ul li {
+  height: 100px;
+  font-size: 24px;
+  border-bottom: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu ul li a {
+  color: #362c39;
+  text-decoration: none;
+}
+.menu ul li a:hover {
+  text-decoration: underline;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -47,9 +75,6 @@ section {
 .welcome {
   display: flex;
   flex-direction: column;
-}
-button {
-  background-color: red;
 }
 .numbers {
   text-align: center;
