@@ -144,6 +144,9 @@ section {
   color: #21417B;
   text-transform: uppercase;
 }
+.divider {
+  padding-bottom: 1%;
+}
 footer {
   display: flex;
   flex-direction: column;
@@ -176,7 +179,6 @@ footer p {
 #accordion{
   width: 80%;
   margin: auto;
-  margin-top: 100px;
 }
 .accordion-headers {
   height: 60px;
