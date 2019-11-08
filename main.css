@@ -173,7 +173,38 @@ footer p {
 .faq {
   text-align: center;
 }
-@media (min-width: 780px){
+#accordion{
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+}
+.accordion-headers {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #21417B;
+  margin: 5px auto;
+  color: white;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+.toggle-indicator{
+  font-size: 40px;
+}
+.accordion-description {
+  height: 0px;
+  overflow: hidden;
+  background-color: #7587a9;
+  transition: height 1s;
+  color: white;
+}
+.accordion-open {
+  height: 100px;
+  padding: 10px 20px;
+  transition: height 1s;
+}
+
+@media (min-width: 760px){
   .logo {
     margin-top: 5%;
     max-width: 50%;
@@ -256,5 +287,8 @@ footer p {
   .numbers img {
     max-width: 150px;
     padding: 2%;
+  }
+  #accordion {
+      width: 80%;
   }
 }
