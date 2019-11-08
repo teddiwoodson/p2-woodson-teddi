@@ -35,8 +35,15 @@ xmlhttp.onreadystatechange = function() {
         var apiResult = JSON.parse(this.responseText);
 
         //Code Dealing With The API Data Goes Here
+        console.log(apiResult);
+
+        //variables for the quote
+        var quote = apiResult.content;
+        var author = apiResult.author;
+
+        //add quote information
 
     }
 };
-xmlhttp.open('GET', 'API URL Goes Here', true);
+xmlhttp.open('GET', 'https://api.quotable.io/random', true);
 xmlhttp.send();
