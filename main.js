@@ -38,10 +38,12 @@ xmlhttp.onreadystatechange = function() {
         console.log(apiResult);
 
         //variables for the quote
-        var quote = apiResult.content;
-        var author = apiResult.author;
+        var quote = document.createTextNode(apiResult.content);
+        var author = document.createTextNode(apiResult.author);
 
         //add quote information
+        var quotes = document.querySelectorAll('#quote-wrapper p span');
+        console.log(quotes);
 
     }
 };
