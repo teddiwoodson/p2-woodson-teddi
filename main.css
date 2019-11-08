@@ -205,7 +205,23 @@ footer p {
   padding: 10px 20px;
   transition: height 1s;
 }
-
+.tests {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.tests h2 {
+  color: #3D0707;
+}
+.tests p {
+  padding-bottom: 5%;
+}
+.tests img {
+  max-width: 200px;
+  padding: 2%;
+}
 @media (min-width: 760px){
   .logo {
     margin-top: 5%;
@@ -292,5 +308,10 @@ footer p {
   }
   #accordion {
       width: 80%;
+  }
+  .tests {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
 }
