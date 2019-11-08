@@ -43,7 +43,9 @@ xmlhttp.onreadystatechange = function() {
 
         //add quote information
         var quotes = document.querySelectorAll('#quote-wrapper p span');
-        console.log(quotes);
+
+        quotes[0].appendChild(quote);
+        quotes[1].appendChild(author);
 
     }
 };
