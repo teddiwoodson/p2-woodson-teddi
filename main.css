@@ -222,6 +222,12 @@ footer p {
   max-width: 200px;
   padding: 2%;
 }
+#more {
+  display: none;
+}
+#read-more {
+  color: grey;
+}
 @media (min-width: 760px){
   .logo {
     margin-top: 5%;
