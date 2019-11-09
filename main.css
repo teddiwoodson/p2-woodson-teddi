@@ -216,6 +216,7 @@ footer p {
 }
 .tests p {
   padding-bottom: 5%;
+  max-width: 250px;
 }
 .tests img {
   max-width: 200px;
@@ -313,5 +314,6 @@ footer p {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: baseline;
   }
 }
