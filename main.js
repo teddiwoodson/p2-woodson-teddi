@@ -35,7 +35,6 @@ xmlhttp.onreadystatechange = function() {
         var apiResult = JSON.parse(this.responseText);
 
         //Code Dealing With The API Data Goes Here
-        console.log(apiResult);
 
         //variables for the quote
         var quote = document.createTextNode(apiResult.content);
@@ -51,3 +50,16 @@ xmlhttp.onreadystatechange = function() {
 };
 xmlhttp.open('GET', 'https://api.quotable.io/random', true);
 xmlhttp.send();
+
+
+//Read More button
+var readMore = document.getElementById('read-more');
+var more = document.getElementById('more');
+console.log(readMore);
+console.log(more);
+
+function readMores() {
+  document.getElementById('more').style.display = "block";
+};
+
+more.addEventListener('click', more);
