@@ -26,7 +26,7 @@ function expandAccordionDescription() {
 //add event listener for accordion
 for (i = 0; i < accordionHeaders.length; i++) {
   accordionHeaders[i].addEventListener('click', expandAccordionDescription);
-}
+};
 
 //API Code
 var xmlhttp = new XMLHttpRequest();
@@ -54,12 +54,14 @@ xmlhttp.send();
 
 //Read More button
 var readMore = document.getElementById('read-more');
+var readLess = document.getElementById('read-less');
 var more = document.getElementById('more');
-console.log(readMore);
-console.log(more);
+//console.log(readMore);
+//console.log(more);
 
-function readMores() {
-  document.getElementById('more').style.display = "block";
+function showMore(){
+    //removes the link
+    document.getElementById('read-more').parentElement.remove('read-more');
+    //shows the #more
+    document.getElementById('more').style.display = "block";
 };
-
-more.addEventListener('click', more);
