@@ -56,21 +56,16 @@ xmlhttp.send();
 var readMore = document.getElementById('read-more');
 var readLess = document.getElementById('read-less');
 var more = document.getElementById('more');
-//console.log(readMore);
-//console.log(more);
 
-function showMore(){
-    //removes the link
-    readMore.classList.add('hide');
-    //shows the #more
-    document.getElementById('more').style.display = "block";
-};
-
-function showLess(){
-    //removes the link
-    readLess.parentElement.remove('read-less');
-    //shows the #more
-    document.getElementById('more').style.display = "none";
-
-    readMore.classList.remove('hide');
-};
+function showMore() {
+  //shows the #more
+  more.style.display = "block";
+  readMore.classList.add('hide');
+}
+readMore.addEventListener('click', showMore);
+//dissappear
+function showLess() {
+  more.style.display = "none";
+  readMore.classList.remove('hide');
+}
+readLess.addEventListener('click', showLess);
