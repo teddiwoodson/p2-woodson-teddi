@@ -61,7 +61,16 @@ var more = document.getElementById('more');
 
 function showMore(){
     //removes the link
-    document.getElementById('read-more').parentElement.remove('read-more');
+    readMore.classList.add('hide');
     //shows the #more
     document.getElementById('more').style.display = "block";
+};
+
+function showLess(){
+    //removes the link
+    readLess.parentElement.remove('read-less');
+    //shows the #more
+    document.getElementById('more').style.display = "none";
+
+    readMore.classList.remove('hide');
 };

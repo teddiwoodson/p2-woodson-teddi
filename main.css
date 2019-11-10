@@ -225,6 +225,9 @@ footer p {
 #more {
   display: none;
 }
+.hide {
+  display: none;
+}
 #read-more {
   color: grey;
 }
