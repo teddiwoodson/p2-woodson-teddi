@@ -216,21 +216,20 @@ footer p {
 }
 .tests p {
   padding-bottom: 5%;
-  max-width: 250px;
+  padding-right: 2%;
+  max-width: 300px;
 }
 .tests img {
   max-width: 200px;
   padding: 2%;
 }
-#more {
+#more, #more-2, #more-3, #more-4, #more-5, #more-6 {
   display: none;
 }
 .hide {
   display: none;
 }
-#read-more {
-  color: grey;
-}
+
 @media (min-width: 760px){
   .logo {
     margin-top: 5%;

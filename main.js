@@ -69,3 +69,93 @@ function showLess() {
   readMore.classList.remove('hide');
 }
 readLess.addEventListener('click', showLess);
+
+//Read More 2
+var readMore2 = document.getElementById('read-more-2');
+var readLess2 = document.getElementById('read-less-2');
+var more2 = document.getElementById('more-2');
+
+function showMore2() {
+  //shows the #more
+  more2.style.display = "block";
+  readMore2.classList.add('hide');
+}
+readMore2.addEventListener('click', showMore2);
+//dissappear
+function showLess2() {
+  more2.style.display = "none";
+  readMore2.classList.remove('hide');
+}
+readLess2.addEventListener('click', showLess2);
+
+//Read More 3
+var readMore3 = document.getElementById('read-more-3');
+var readLess3 = document.getElementById('read-less-3');
+var more3 = document.getElementById('more-3');
+
+function showMore3() {
+  //shows the #more
+  more3.style.display = "block";
+  readMore3.classList.add('hide');
+}
+readMore3.addEventListener('click', showMore3);
+//dissappear
+function showLess3() {
+  more3.style.display = "none";
+  readMore3.classList.remove('hide');
+}
+readLess3.addEventListener('click', showLess3);
+
+//Read More 4
+var readMore4 = document.getElementById('read-more-4');
+var readLess4 = document.getElementById('read-less-4');
+var more4 = document.getElementById('more-4');
+
+function showMore4() {
+  //shows the #more
+  more4.style.display = "block";
+  readMore4.classList.add('hide');
+}
+readMore4.addEventListener('click', showMore4);
+//dissappear
+function showLess4() {
+  more4.style.display = "none";
+  readMore4.classList.remove('hide');
+}
+readLess4.addEventListener('click', showLess4);
+
+//Read More 5
+var readMore5 = document.getElementById('read-more-5');
+var readLess5 = document.getElementById('read-less-5');
+var more5 = document.getElementById('more-5');
+
+function showMore5() {
+  //shows the #more
+  more5.style.display = "block";
+  readMore5.classList.add('hide');
+}
+readMore5.addEventListener('click', showMore5);
+//dissappear
+function showLess5() {
+  more5.style.display = "none";
+  readMore5.classList.remove('hide');
+}
+readLess5.addEventListener('click', showLess5);
+
+//Read More 6
+var readMore6 = document.getElementById('read-more-6');
+var readLess6 = document.getElementById('read-less-6');
+var more6 = document.getElementById('more-6');
+
+function showMore6() {
+  //shows the #more
+  more6.style.display = "block";
+  readMore6.classList.add('hide');
+}
+readMore6.addEventListener('click', showMore6);
+//dissappear
+function showLess6() {
+  more6.style.display = "none";
+  readMore6.classList.remove('hide');
+}
+readLess6.addEventListener('click', showLess6);
